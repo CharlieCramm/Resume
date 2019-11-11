@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\author{Meyers Tom}
+\title{Curriculum Vitae}
+
+\usepackage{titlesec}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\titleformat{\section}{}{}{0em}{\filleft\huge\bfseries\lowercase}[\textcolor{mycolor}\titlerule]
+\titleformat{\subsection}[runin]{\large\bfseries}{}{0em}{}
+\titleformat{\subsubsection}[runin]{\bfseries}{}{1em}{}[\textcolor{mycolor}{---}]
+
+\renewcommand\maketitle{
+  \begin{center}
+    {\bfseries\Huge Meyers Tom}
+
+    \vspace{.55em}
+    \textcolor{mygrey}{tom@odex.be}
+    %
+    %\textcolor{mygrey}{+324 79 01 46 82}
+    %tom@odex.be
+  \end{center}
+}
+
+\titlespacing{\subsubsection}{2em}{0.1em}{0em}
+\titlespacing{\subsection}{0em}{0.2em}{1em}
+\titlespacing{\section}{0em}{1.7em}{0em}
+
+\pagenumbering{gobble}
+%\definecolor{mycolor}{HTML}{ff1744} %pink
+%\definecolor{mycolor}{HTML}{0D47A1} %blue
+%\definecolor{mycolor}{HTML}{FF5722} %orange
+\definecolor{mycolor}{HTML}{7b1fa2} %purple
+\definecolor{mygrey}{HTML}{737373}
+%\renewcommand{\familydefault}{ttdefault}
+%\renewcommand{\ttdefault}{pcr}
+
+\begin{document}
+\maketitle
+\input{education.tex}
+%\input{programming_competitions.tex}
+\input{technical_skills.tex}
+\input{projects.tex}
+\input{work_experience.tex}
+\end{document}
