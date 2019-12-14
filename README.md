@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/F0xedb/Resume">
-    <img src="https://tos.pbfp.xyz/images/about/author.jpg" alt="Logo" width="200" height="300">
+    <img src="https://tos.pbfp.xyz/images/about/author.jpg" alt="Logo" width="230" height="300">
   </a>
 
   <h3 align="center">Resume</h3>
