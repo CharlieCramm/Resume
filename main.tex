@@ -6,7 +6,24 @@
 \usepackage{titlesec}
 \usepackage[margin=0.7in]{geometry}
 \usepackage{xcolor}
-\usepackage{hyperref}
+\usepackage[bottom]{footmisc}
+\usepackage{float}
+
+
+\definecolor{mycolor}{HTML}{7b1fa2} %purple
+\definecolor{mygrey}{HTML}{737373}
+
+\usepackage[]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=mycolor,
+    filecolor=mycolor,      
+    urlcolor=mycolor,
+    pdftitle={Curriculum Vitae},
+  }
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 \titleformat{\section}{}{}{0em}{\filleft\huge\bfseries\lowercase}[\textcolor{mycolor}\titlerule]
 \titleformat{\subsection}[runin]{\large\bfseries}{}{0em}{}
@@ -18,9 +35,8 @@
 
     \vspace{.55em}
     \textcolor{mygrey}{tom@odex.be}
-    %
-    %\textcolor{mygrey}{+324 79 01 46 82}
-    %tom@odex.be
+    
+    \textcolor{mygrey}{+324 79 01 46 82}
   \end{center}
 }
 
@@ -29,19 +45,15 @@
 \titlespacing{\section}{0em}{1.7em}{0em}
 
 \pagenumbering{gobble}
-%\definecolor{mycolor}{HTML}{ff1744} %pink
-%\definecolor{mycolor}{HTML}{0D47A1} %blue
-%\definecolor{mycolor}{HTML}{FF5722} %orange
-\definecolor{mycolor}{HTML}{7b1fa2} %purple
-\definecolor{mygrey}{HTML}{737373}
-%\renewcommand{\familydefault}{ttdefault}
-%\renewcommand{\ttdefault}{pcr}
+
 
 \begin{document}
 \maketitle
-\input{education.tex}
+
+\input{intro.tex}
 \input{technical_skills.tex}
 \input{projects.tex}
+\input{education.tex}
 \input{work_experience.tex}
 \input{programming_competitions.tex}
 \end{document}
