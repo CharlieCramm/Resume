@@ -10,23 +10,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/F0xedb/Resume">
-    <img src="https://tos.pbfp.xyz/images/about/author.jpg" alt="Logo" width="230" height="300">
-  </a>
 
   <h3 align="center">Resume</h3>
 
   <p align="center">
     My own resume written using LaTex
     <br />
-    <a href="https://github.com/F0xedb/Resume"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/CharlieCramm/Resume"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/F0xedb/Resume">View Demo</a>
+    <a href="https://github.com/CharlieCramm/Resume">View Demo</a>
     ·
-    <a href="https://github.com/F0xedb/Resume/issues">Report Bug</a>
+    <a href="https://github.com/CharlieCramm/Resume/issues">Report Bug</a>
     ·
-    <a href="https://github.com/F0xedb/Resume/issues">Request Feature</a>
+    <a href="https://github.com/CharlieCramm/Resume/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,7 +66,7 @@ pacman -Syu texlive-most
  
 1. Clone the Resume
 ```sh
-git clone https://github.com/F0xedb/Resume.git && cd Resume
+git clone https://github.com/CharlieCramm/Resume.git && cd Resume
 ```
 2. Build the main file
 ```sh
@@ -83,14 +80,14 @@ Open main.pdf to view the resume
 
 Edit the specific files to change that part of the resume.
 
-_For more examples, please refer to the [Documentation](https://github.com/F0xedb/Resume)_
+_For more examples, please refer to the [Documentation](https://github.com/CharlieCramm/Resume)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/F0xedb/Resume/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/CharlieCramm/Resume/issues) for a list of proposed features (and known issues).
 
 
 
@@ -111,16 +108,6 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-F0xedb - tom@odex.be
-
-Project Link: [https://github.com/F0xedb/Resume](https://github.com/F0xedb/Resume)
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
